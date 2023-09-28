@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.banner{
+    min-width: 1920px;
+    min-height: 3700px;
+    background: #FFF;
+}
+.navbar{
+    display: flex;
+    
+}
+.nav__collection{
+    list-style: none;
+    padding-top: 46px;
+    font-size: 16px;
+    display: flex;
+    padding-left: 384px;
+    gap: 45px;
+
+
+
+
+
+    color: #212121;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.rasm{
+    width: 151px;
+    height: 47px;
+    padding-top: 34px;
+    padding-left: 273px;
+
+
+}
+.btn{
+    margin-left: 64px;
+    margin-top: 41px;
+    width: 97px;
+    height: 32px;
+    border-radius: 15px 0px;
+    background: #CAA892;
+    border: none;
+    color: #fff;
+    margin-bottom: 218px;
+    
+
+}
+.nav__colection{
+    display: flex;
+    
+}
+.nav__text{
+    width: 760px;
+    height: 626px;
+   
+}
+.nav__text h5{
+    padding-left:271px ;
+    padding-bottom: 12px;
+    color: #646464;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: #646464;
+}
+.nav__text h1{
+    padding-left: 268px ;
+    padding-bottom: 23px;
+    color: #212121;
+font-family: Poppins;
+font-size: 72px;
+font-style: normal;
+font-weight: 600;
+line-height: 78px;
+color: #212121;
+
+}
+.nav__text p{
+    padding-left: 271px;
+    color: #646464;
+    padding-bottom: 46px;
+
+}
+.link{
+    width: 143px;
+    height: 43px;
+    margin-left: 271px;
+    border-radius: 20px 0px;
+    background: #37806B;
+    border: none;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+
+    
+}
+.nav__photo{
+    padding-left: 101px;
+
+}
+.photo{
+    width: 717px;
+    height: 626px;
+    border-radius: 140px  0px;
+    background: url("./toa-heftiba-FV3GConVSss-unsplash.png") no-repeat center/cover;
+}
+.nav__title{
+    padding-top: 159px;
+    padding-left: 271px;
+    margin-bottom: 62px;
+}
+.nav__title h4{
+    color: #646464;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; 
+letter-spacing: -0.2px;
+}
+.nav__title h1{
+    color: #212121;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 78px; 
+}
+.nav__table{
+  display: flex;
+    gap: 37px;
+
+    
+}
+.table{
+    width: 425px;
+    height: 193px;
+    border-radius: 60px 0px;
+    background: #FFF;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.14);
+    margin-left: 286px;
+    display: flex;
+
+}
+.red{
+    width: 425px;
+    height: 193px;
+    border-radius: 60px 0px;
+    background: #CAA892;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+.design{
+    width: 425px;
+    height: 193px;
+    border-radius: 60px 0px;
+    background: #FFF;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.14);
+}
+.table__rasm{
+    width: 40px;
+    height: 40px;
+    background: url("./sr.png")no-repeat center/cover; margin-top: 40px;
+    margin-left: 37px;
+    
+}
+.table-text{
+    padding-left: 20px;
+}
+.table-text h1{
+    color: #212121;
+font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 78px;
+padding-left: 20px;
+padding-top: 12px;
+
+
+}
+.table-text h6 {
+    width: 307px;
+    height: 84px;
+    color: #646464;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+letter-spacing: -0.18px;
+padding-left: 20px;
+
+
+}
+.red-rasm{
+    width: 40px;
+    height: 40px;
+    background: url('./ere.png') no-repeat center/cover;
+    margin-left: 38px;
+    margin-top: 40px;
+
+}
+.red__text h3{
+    color: #FFF;
+font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 78px;
+margin-top: 12px;
+margin-left: 17px;
+}
+.red__text h6{
+    width: 307px;
+    height: 84;
+    color: #FFF;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+letter-spacing: -0.18px;
+padding-left: 20px;
+}
+.design{
+    display: flex;
+}
+.design__rasm{
+    width: 40px;
+    height: 40px;
+    background: url("./sd.png") no-repeat center/cover;
+    margin-top: 40px;
+    margin-left: 38px;
+
+}
+.design__text h3{
+    color: #212121;
+font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 78px;
+padding-left: 12px;
+padding-top: 16px;
+
+}
+.design__text h6{
+    width: 307px;
+    height: 84;
+    
+    color: #646464;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+letter-spacing: -0.18px;
+padding-left: 20px;
+}   
+.form{
+    display: flex;
+}
+.form-rasm1{
+    width: 832px;
+    height: 726px;
+
+   margin-top: 236px;
+    margin-left: 271px;
+}
+.form-rasm{
+    width: 717px;
+    height: 726px;
+    
+    background: url("./pexels-vecislavas-popa-1571460.png") no-repeat center/cover;
+    border-radius: 140px 0;
+}
+.form-text{
+    width: 832px;
+    height: 430px;
+    margin-top: 294px;
+    margin-bottom: 374px;
+
+}
+.form-text h6{
+    color: #646464;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; 
+}
+.form-text h2{
+    color: #212121;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 57px; 
+}
+.form-text h5{
+    width: 544px;
+    height: 240px;
+    color: #646464;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+}
+.form-text button{
+    width: 143px;
+    height: 43px;
+    border-radius: 20px 0px;
+    background: #37806B;
+    border: 0;
+    color: #FFF;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+
+
+}
+.about{
+    display: flex;
+}
+.about-text{
+    width: 682px;
+    height: 726px;
+   
+}
+.about-text h1{
+   margin-top: 244px;
+   font-size: 260px;
+   margin-left: 271px;
+}
+.about-text h3{
+    width: 528px;
+    height: 195px;
+    color: #212121;
+font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 500;
+line-height: 65px; 
+letter-spacing: 2px;
+margin-left: 271px;
+
+}
+.about-text button{
+    width: 143px;
+height: 43px;
+border-radius: 20px 0px;
+background: #37806B;
+color: #FFF;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+margin-top: 35px;
+border: none;
+margin-left: 271px;
+margin-bottom: 374px; 
+
+}
+.about-rasm{
+    width: 682px;
+    height: 726px;
+    margin-left: 154px;
+    border-radius: 140px 0px;
+    background: url("./pexels-lisa-fotios-1090638.png") no-repeat center/cover;
+    
+}
+   
+
